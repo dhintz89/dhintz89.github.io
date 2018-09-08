@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "**Done! ...So Now What?**"
-date:       2018-09-08 20:43:36 +0000
+title:      "Done! ...So Now What?"
+date:       2018-09-08 16:43:37 -0400
 permalink:  done_so_now_what
 ---
 
@@ -12,9 +12,7 @@ You could try your hand at creating your own small programs and see how it goes.
 
 Yes, this is an excellent challenge, and certainly one that should be attempted at some point, but there is also another way - one that won’t pull you away from the curriculum for days or weeks at a time while you’re troubleshooting your own designs - and that is online coding challenges.  While not as extensive as building a program from scratch, I’ve found that these puzzles are often quite challenging and, since they provide very little in terms of structure, they still force me to design my own top-to-bottom solution based on the requirements given.  Additionally, I’m often forced to research and learn new concepts, rather than simply strengthening what I already know, which is a huge benefit over starting from scratch on my own.
 
-![](http://www.codewizardshq.com/wp/wp-content/uploads/2016/08/codewars.png)
-
-The real bonus of these challenges; however, is the ability to compare my finished product to other users’ work.  At [CodeWars](https://www.codewars.com), the userbase votes to determine the “best” code according to several criteria, so you can compare your work to the “best practice” or the “most clever” solutions that have been found.  This is incredibly helpful because it not only provides instant feedback regarding your own work, but it also gives you the chance to see the way that more experienced coders go about solving the exact same problem, an opportunity not present in many other industries without finding and working with a mentor.  Looking into some of the less familiar solutions has helped me to find techniques to take my code to the next level.  Consider, for example, my first Ruby challenge solution:
+The real bonus of these challenges; however, is the ability to compare my finished product to other users’ work.  At [CodeWars](https://www.codewars.com), the userbase votes to determine the “best” code according to several criteria, so you can compare your work to the “best practice” or the “most clever” solutions that have been found.  This is incredibly helpful because it not only provides instant feedback regarding your own work, but it also gives you the chance to see the way that more experienced coders go about solving the *exact same problem*, an opportunity not present in many other industries without finding and working with a mentor.  Looking into some of the less familiar solutions has helped me to find techniques to take my code to the next level.  Consider, for example, my first Ruby challenge solution:
 ```
 def longest(a1, a2)
   array = a1.split("")+a2.split("")
@@ -30,6 +28,8 @@ def longest(a, b)
 End
 ```
 It’s clear that, even at the beginner level, there’s a lot to learn from access to these alternate solutions!  Through his window into the minds and work of experienced coders, I’ve found countless new techniques to improve the elegance of my own code.  
+
+![](http://www.codewizardshq.com/wp/wp-content/uploads/2016/08/codewars.png)
 
 Try it out and see for yourself!
 
