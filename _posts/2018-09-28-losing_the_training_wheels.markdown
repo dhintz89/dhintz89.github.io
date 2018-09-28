@@ -1,0 +1,21 @@
+---
+layout: post
+title:      "Losing the Training Wheels"
+date:       2018-09-28 21:47:06 +0000
+permalink:  losing_the_training_wheels
+---
+
+
+One huge advantage that attracted me to Flatiron School over other, similar coding schools was the opportunity to work 100% remote on a flexible schedule.  This was something that I absolutely needed since I was not able to quit my day job while I learned this new skill.  This type of schedule does have one disadvantage; however, and that is the possibility of needing to take some time off due to other conflicting priorities.  Although the school has done a great job of keeping me on task, I was forced to evacuate due to a hurricane and had to take around 2 weeks off during the early days of courses.  "That's not a huge deal," I thought, "I'm ahead in the course work anyway, so I'll be fine."
+
+And that's when I learned how coding is NOT like learning to ride a bike...
+
+After taking off for only two weeks, I came back to the courses and found that I'd forgotten how to build methods that I could clearly remember using throughout the entire course, things like how to get user input or how to actually instantiate a new instance of a class within my code.  The next item in my curriculum was to complete the final 2 labs for Object Oriented Ruby before my student project, so it was clear that I could forget about figuring out the more complicated things like setting up object relationships until I found a way to re-learn the basics.  So what could I do to avoid having to start over from the beginning?  I decided that going back and re-trying the labs might help, but I found that using this approach wasn't very effective as most of those labs are pretty focused on what exactly that lesson was teaching.  While I was getting back into it very slowly, it felt piecemeal and I was still getting tripped up on concepts that I knew I should remember.
+
+I continued this way for a few hours, my frustration building, but then I had the idea of going back to one of the comprehensive labs and, rather than trying to redo it again, I started from scratch entirely.  I quickly read through the instructions, getting a sense for what the code was actually supposed to do, and I then used a compiler to work through it on my own and disregarded the existing test conditions.  As long as the code did what it's supposed to at the end, I considered it a pass.  This was admittedly a much slower process than simply redoing the lab, but the big advantage was that I had to think about each and every piece of building out the code.  When the instructions said to "Display the Board," I couldn't just type out the code while the labs walk me through how to do it, instead I needed to think about what exactly displaying the board meant which incorporated dozens of lessons, some I remembered, some I needed to use the Ruby documentation online extensively to re-figure out.
+
+There were a few places where I really got stuck and after exhausting all the normal resources, I admit that I did go into my GitHub Repository and take a peek to see how I had done it in the past.  Even doing this only gave me a rough idea of what it was that I was trying to get that method to do; however, since by that time the actual code that I'd built on my own differed quite a bit from what I had done the first time through.  
+
+I rebuilt 2 labs in this fashion.  The first was the Tic Tac Toe Game, which painstakingly rebuilt my foundation in procedural Ruby - methods, iteration, and general syntax.  Once that was completed, after about 20 hours of working on it, I felt very confident once again.  The next one I re-did was the Banking Lab, to get a refresher specific to Object Orientation.  By this time, I was refamiliarized with Ruby and was able to fly through it nearly as fast as the first time around and then I was ready to tackle the next lab on my curriculum.
+
+The lesson learned here....do not, under any circumstances "take a couple days off."  If you really, really have no choice; however, I highly recommend scrapping the idea of going back through the courses as written and instead take the far more challenging, but comprehensive approach of building your own code based on one that you are already familiar with.  It will be well worth the frustration, at least it certainly was for me.
