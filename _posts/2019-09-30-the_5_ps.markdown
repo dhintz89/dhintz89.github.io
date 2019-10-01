@@ -1,0 +1,24 @@
+---
+layout: post
+title:      "The 5 Ps..."
+date:       2019-10-01 01:56:13 +0000
+permalink:  the_5_ps
+---
+
+Ever since I heard about "The Five Ps of Success," and probably even beforehand, the notion has always resonated strongly with me.  The Five Ps, by the way, are "**P**rior **P**lanning **P**revents **P**oor **P**erformance.  I have always been a strong advocate, and my professional career has essentially been to ensure proper planning on others' behalf.  Generally when I work a project, I spend 90% of the time planning everything out so that the execution is almost an afterthought.  "It's how my mind naturally works," is what I always explain when impatient coworkers or friends confront me about it.  In fact, this is part of the reason that I thought I might be good at coding.
+
+Given this history then, I found it very surprising when I largely abandoned this philosophy when I was working on my Rails project.  I started off with what I thought was a good plan, but then when I started sketching out my data structure I realized that it just wasn't going to work the way that I'd thought.  Rather than going back to the drawing board I decided to just jump in and "figure it out as I go."  Unsurprisingly, this came with a lot of challenges and ended up creating a lot of extra work.
+
+Some Cons:
+* It took FOREVER to finish this project.  Between all the time I spent starting a page over or just trying to figure out where to go from here, I could have finished the actual coding 3 times over.
+* It was way more stessful than it really needed to be.  I was frequently pulling my hair out looking at a partially completed concept and trying to jot down notes so that I wouldn't forget what I was doing as I went further down the rabbit hole.
+* My code was messy.  I had to go back and rewrite a large portion of it to clean it up before submitting, which is normal, but this became a difficult task since I had had so many different trains of thought over the course of the project and I had to figure out what I was thinking at the time I had written each piece.
+* With all my internal back-and-forth, I had forgotton about one small portion of the requirements hidden away in parenthesis - use Devise.  I remembered I was supposed to use my own authentication flow and a 3rd party version but surprise, that's not a simple task to build from scratch.  Implementing the Devise Gem would have been so easy if I had planned for it in the first place...but I did not and it required a lot of rewriting in order to get it working.
+
+Despite the obvious problems; however, it wasn't all bad.  In fact, as a learning experience this coding on a whim method actually did a lot to help cement in how Rails works in general.  I was having a difficult time understanding the underlying magic of Rails during the coursework, so my random decision to jump in without preparation ended up really paying off!
+
+Some Pros:
+* It stayed interesting.  There's a lot of coding involved in building a Rails Application and I can easily see it getting tedious.  The coding process was very dynamic for this project though since things kept changing as I went.  Everytime I had to back up and rethink something, it meant a whole new set of challenges to solve and another opportunity for design, for better or worse.
+* I was forced to get very closely acquainted with Rails.  When I made a change, no matter how small, it would cause a ripple effect through my whole project, so something like implementing Devise at the very end meant making changes to my users table, which impacts my User Model, then I needed to figure out how to account for that in my controllers.  Since my Users and Sessions Controllers had to be largely re-written there were huge changes needed in my views as well, including the fact that my helper methods (which I'd forgotten about) suddenly stopped working, necessitating changes to further controllers (and so on, and so on).  Tracing each change through the entire application took a lot of time, but it really did a lot to de-mystify how Rails works.
+
+In the end, my decision to forego the usual meticulous planning paid off in a big way *this time*.  It was a great learning experience that I believe will really help set me up for success in future lessons.  That said, I will definitely not be changing my view on the five Ps anytime soon and I'm glad I had this lesson reinforced with a worst-case scenario while I'm still in school rather than when I'm on a tight deadline.
